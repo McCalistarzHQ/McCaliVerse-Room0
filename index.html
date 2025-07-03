@@ -2,31 +2,55 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>McCaliVerse: Room 0 Gateway</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>McCaliVerse: The Vault</title>
   <style>
     body {
-      background: #000;
-      color: #0ff;
-      font-family: Arial, sans-serif;
+      margin: 0;
+      background: url('YOUR_VAULT_IMAGE_URL') no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      color: #FFD700; /* Gold */
+      font-family: 'Courier New', Courier, monospace;
       text-align: center;
-      padding: 50px;
+      backdrop-filter: brightness(0.7);
     }
     h1 {
-      font-size: 2em;
+      font-size: 2.5em;
+      margin: 20px 0;
     }
-    p {
-      font-size: 1.2em;
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
     }
-    a {
-      color: #0ff;
-      text-decoration: underline;
+    .links a {
+      display: inline-block;
+      background: rgba(0,0,0,0.6);
+      color: #FFD700;
+      border: 2px solid #FFD700;
+      padding: 15px 30px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: all 0.3s;
+    }
+    .links a:hover {
+      background: #FFD700;
+      color: #000;
     }
   </style>
 </head>
 <body>
-  <h1>Welcome to McCaliVerse: Room 0</h1>
-  <p>This is your first live gateway. More coming soon.</p>
-  <p><a href="https://instagram.com/McCaliStarz_LLC" target="_blank">Follow us on Instagram</a></p>
+  <h1>🔒 Welcome to The Vault</h1>
+  <div class="links">
+    <a href="https://meta.com/horizon" target="_blank">Meta Horizon Gateway</a>
+    <a href="https://your-eve-link.com" target="_blank">EVE Legacy Gateway</a>
+    <a href="https://mccaliverse.com" target="_blank">McCaliVerse.com</a>
+  </div>
 </body>
 </html>
