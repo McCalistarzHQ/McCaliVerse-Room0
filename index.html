@@ -2,50 +2,47 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>McCaliVerse Vault</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>McCaliVerse Room 0: The Vault</title>
   <style>
     body {
       margin: 0;
       height: 100vh;
-      background: url('86F7B703-F722-4AF7-AEE1-FDF9E69E705F.png') no-repeat center center fixed;
-      background-size: cover;
+      background: url('86F7B703-F722-4AF7-AEE1-FDF9E69E705F.png') no-repeat center center/cover;
       display: flex;
       flex-direction: column;
-      justify-content: center;
+      justify-content: flex-end;
       align-items: center;
       font-family: monospace;
-      color: #FFD700;
-      text-align: center;
     }
-    h1 {
-      font-size: 3em;
-      background: rgba(0, 0, 0, 0.6);
-      padding: 0.5em 1em;
-      border-radius: 8px;
+    .links {
+      display: flex;
+      justify-content: space-between;
+      width: 90%;
+      max-width: 1200px;
+      margin-bottom: 50px;
     }
-    a {
-      display: block;
-      margin: 20px;
-      padding: 15px 30px;
-      background: rgba(0, 0, 0, 0.6);
-      border: 3px solid #FFD700;
-      border-radius: 8px;
+    .link {
+      background: rgba(0, 0, 0, 0.7);
       color: #FFD700;
+      border: 2px solid #FFD700;
+      border-radius: 8px;
       text-decoration: none;
-      font-size: 1.5em;
+      padding: 20px 30px;
+      font-size: 1.2rem;
       transition: background 0.3s, color 0.3s;
     }
-    a:hover {
+    .link:hover {
       background: #FFD700;
       color: #000;
     }
   </style>
 </head>
 <body>
-  <h1>🔒 Welcome to The Vault</h1>
-  <a href="https://www.meta.com/horizon-worlds/" target="_blank">Meta Horizon Gateway</a>
-  <a href="https://eveonline.com/" target="_blank">EVE Legacy Gateway</a>
-  <a href="https://chatgpt.com/g/g-68437fa240948191bc7159e29ff8c811-m-c-a-l-i-the-architect-of-the-mccaliverse" target="_blank">McCaliVerse.com</a>
+  <div class="links">
+    <a class="link" href="https://horizon.meta.com/profile/686740977849154/?hwsh=6ZgyQS5Fdw" target="_blank">Meta Horizon Gateway</a>
+    <a class="link" href="https://chatgpt.com/g/g-68437fa240948191bc7159e29ff8c811-m-c-a-l-i-the-architect-of-the-mccaliverse" target="_blank">McCaliVerse.com</a>
+    <a class="link" href="https://mccaliverse.com/room0/callback" target="_blank">EVE Legacy Gateway</a>
+  </div>
 </body>
 </html>
